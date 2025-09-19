@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>ZPPT_SSNUM_SUB</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>TEXT15</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>Social security no.</DDTEXT>
+    <REPTEXT>SS no.</REPTEXT>
+    <SCRTEXT_S>SS no.</SCRTEXT_S>
+    <SCRTEXT_M>SS no.</SCRTEXT_M>
+    <SCRTEXT_L>SS no.</SCRTEXT_L>
+    <DTELMASTER>P</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>6</LANGU>
+    <LANGU>B</LANGU>
+    <LANGU>P</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>6</DDLANGUAGE>
+     <REPTEXT>SS broj</REPTEXT>
+     <SCRTEXT_S>SS broj</SCRTEXT_S>
+     <SCRTEXT_M>SS broj</SCRTEXT_M>
+    </item>
+    <item>
+     <DDLANGUAGE>B</DDLANGUAGE>
+     <REPTEXT>מספר SS</REPTEXT>
+     <SCRTEXT_S>מספר SS</SCRTEXT_S>
+     <SCRTEXT_M>מספר SS</SCRTEXT_M>
+    </item>
+    <item>
+     <DDLANGUAGE>P</DDLANGUAGE>
+     <DDTEXT>Nº Beneficiário SS Substituto</DDTEXT>
+     <REPTEXT>Nº ben.SS Substituto</REPTEXT>
+     <SCRTEXT_S>Nº ben.SS</SCRTEXT_S>
+     <SCRTEXT_M>Nº ben.SS Substituto</SCRTEXT_M>
+     <SCRTEXT_L>Nº beneficiário SS Substituto</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
