@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZINETUMFCTTRABALHADORLST_N_TAB</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZINETUMFCTTRABALHADORLST</OBJ_NAME_M>
+     <HASH_ID>51C89DD9563CF891D4F1A90BC39189147897E5DE</HASH_ID>
+     <ID>TableOf&lt;type&gt; niss-trabalhador &lt;element&gt; niss-trabalhador &lt;type&gt; trabalhadorlst http://vo.webservice.contrato.segsocial.pt http://vo.webservice.contrato.segsocial.pt</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>niss-trabalhador</IFR_NAME>
+     <IFR_NSPCE>http://vo.webservice.contrato.segsocial.pt</IFR_NSPCE>
+     <IFR_GNSPCE>http://vo.webservice.contrato.segsocial.pt</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZINETUMFCT</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TTYP</OBJECT>
+     <OBJ_NAME>ZINETUMFCTTRABALHADORLST_N_TAB</OBJ_NAME>
+     <OBJECT1>TTYP</OBJECT1>
+     <OBJ_NAME1>ZINETUMFCTTRABALHADORLST_N_TAB</OBJ_NAME1>
+     <OBJECT2>TTYP</OBJECT2>
+     <OBJ_NAME2>ZINETUMFCTTRABALHADORLST_N_TAB</OBJ_NAME2>
+     <ID>TableOf&lt;type&gt; niss-trabalhador &lt;element&gt; niss-trabalhador &lt;type&gt; trabalhadorlst http://vo.webservice.contrato.segsocial.pt http://vo.webservice.contrato.segsocial.pt</ID>
+     <IFR_TYPE>TableOftype</IFR_TYPE>
+     <IFR_NAME>niss-trabalhador</IFR_NAME>
+     <IFR_XSDTYP>long</IFR_XSDTYP>
+     <IFR_PATTRN>[0-9]{11}</IFR_PATTRN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TTYP</R3_TYPE>
+     <R3_NAME>ZINETUMFCTTRABALHADORLST_N_TAB</R3_NAME>
+     <R3_TEXT>Proxy Table Type (generated)</R3_TEXT>
+     <R3_DATATYP>DEC</R3_DATATYP>
+     <R3_LENGTH>000019</R3_LENGTH>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
