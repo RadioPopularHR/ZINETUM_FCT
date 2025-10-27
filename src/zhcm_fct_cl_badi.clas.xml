@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZHCM_FCT_CL_BADI</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Classe para BAdI: ZHCM_FCT_BADI</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Classe para BAdI: ZHCM_FCT_BADI</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CA_COM_DESMP_NAO</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Comunicação de desemprego</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CA_COM_DESMP_SIM</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Comunicação de desemprego</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CA_PREST_TRAB_PRES</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Prestação de trabalho</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CA_PREST_TRAB_TELE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Prestação de trabalho</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CA_PREST_TRAB_TELE_PAR</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Prestação de trabalho</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>OBTEM_TEMPO_PARCIAL</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obtem informação de flag de tempo parcial</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IND</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Prepara valores de rúbricas de ret. e diu. indiretamente</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IT0008</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Prepara valores de rúbricas de ret. e diu. IT0008</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>OBTEM_TEMPO_PARCIAL</CMPNAME>
+     <SCONAME>IS_P0007</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre pessoal: infotipo 0007 (tempo trab.teórico)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>OBTEM_TEMPO_PARCIAL</CMPNAME>
+     <SCONAME>IS_P0008</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Reg.mestre HR infotipo 0008 (Remuneração base)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>OBTEM_TEMPO_PARCIAL</CMPNAME>
+     <SCONAME>RV_PARCIAL</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Tempo parcial</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IND</CMPNAME>
+     <SCONAME>EV_DIUTURNIDADES</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Diuturnidades</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IND</CMPNAME>
+     <SCONAME>EV_NODATA</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Flag geral</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IND</CMPNAME>
+     <SCONAME>EV_RETRIBUICAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Retribuição Base</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IND</CMPNAME>
+     <SCONAME>IS_P0001</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre HR: infotipo 0001 (atrib.org.)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IND</CMPNAME>
+     <SCONAME>IS_P0007</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Registro mestre pessoal: infotipo 0007 (tempo trab.teórico)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IND</CMPNAME>
+     <SCONAME>IS_P0008</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Reg.mestre HR infotipo 0008 (Remuneração base)</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IND</CMPNAME>
+     <SCONAME>IV_USA_IT0052</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Flag geral</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IND</CMPNAME>
+     <SCONAME>ZCX_HCM_FCT_COCKPIT</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Fundos de compensação de trabalho</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IT0008</CMPNAME>
+     <SCONAME>EV_DIUTURNIDADES</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Diuturnidades</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IT0008</CMPNAME>
+     <SCONAME>EV_RETRIBUICAO</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Retribuição Base</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PREP_RUB_RET_DIU_IT0008</CMPNAME>
+     <SCONAME>IS_P0008</SCONAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Reg.mestre HR infotipo 0008 (Remuneração base)</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

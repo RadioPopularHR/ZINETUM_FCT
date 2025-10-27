@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZINETUMFCTPESQUISA_CONTRATOS</OBJ_NAME>
+     <OBJECT_M>TABL</OBJECT_M>
+     <OBJ_NAME_M>ZINETUMFCTPESQUISA_CONTRATOS</OBJ_NAME_M>
+     <HASH_ID>09B855D1AF016D7F0808EA1CBD1C913A93D1DB89</HASH_ID>
+     <ID>&lt;type&gt; pesquisaContratos http://vo.webservice.contrato.segsocial.pt http://vo.webservice.contrato.segsocial.pt</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>pesquisaContratos</IFR_NAME>
+     <IFR_NSPCE>http://vo.webservice.contrato.segsocial.pt</IFR_NSPCE>
+     <IFR_GNSPCE>http://vo.webservice.contrato.segsocial.pt</IFR_GNSPCE>
+     <GEN_VERS>0005</GEN_VERS>
+     <PREFIX>ZINETUMFCT</PREFIX>
+     <CATEGORY>ifmtypedef</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://vo.webservice.contrato.segsocial.pt</X-ML_NSPCE>
+     <X-ML_NAME>pesquisaContratos</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZINETUMFCTPESQUISA_CONTRATOS</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DATA_FIM</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DATA_FIM</OBJ_NAME2>
+     <ID>&lt;element&gt; data-fim &lt;type&gt; pesquisaContratos http://vo.webservice.contrato.segsocial.pt http://vo.webservice.contrato.segsocial.pt</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>data-fim</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>date</IFR_XSDTYP>
+     <IFR_PATTRN>(\d{4}-\d{2}-\d{2})</IFR_PATTRN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DATA_FIM</R3_NAME>
+     <R3_DTREF>XSDDATE_ISO</R3_DTREF>
+     <R3_SEQNUM>000002</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZINETUMFCTPESQUISA_CONTRATOS</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>DATA_INICIO</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>DATA_INICIO</OBJ_NAME2>
+     <ID>&lt;element&gt; data-inicio &lt;type&gt; pesquisaContratos http://vo.webservice.contrato.segsocial.pt http://vo.webservice.contrato.segsocial.pt</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>data-inicio</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MINOCC>1</IFR_MINOCC>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_XSDTYP>date</IFR_XSDTYP>
+     <IFR_PATTRN>(\d{4}-\d{2}-\d{2})</IFR_PATTRN>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>DATA_INICIO</R3_NAME>
+     <R3_DTREF>XSDDATE_ISO</R3_DTREF>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZINETUMFCTPESQUISA_CONTRATOS</OBJ_NAME>
+     <OBJECT1>FIEL</OBJECT1>
+     <OBJ_NAME1>TRABALHADORES</OBJ_NAME1>
+     <OBJECT2>FIEL</OBJECT2>
+     <OBJ_NAME2>TRABALHADORES</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZINETUMFCTTRABALHADORLST</OBJ_NAME_R>
+     <ID>&lt;element&gt; trabalhadores &lt;type&gt; pesquisaContratos http://vo.webservice.contrato.segsocial.pt http://vo.webservice.contrato.segsocial.pt</ID>
+     <IFR_TYPE>element</IFR_TYPE>
+     <IFR_NAME>trabalhadores</IFR_NAME>
+     <IFR_TAGTYP>E</IFR_TAGTYP>
+     <IFR_MAXOCC>1</IFR_MAXOCC>
+     <IFR_OPTNL>X</IFR_OPTNL>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>FIEL</R3_TYPE>
+     <R3_NAME>TRABALHADORES</R3_NAME>
+     <R3_SEQNUM>000003</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>TABL</OBJECT>
+     <OBJ_NAME>ZINETUMFCTPESQUISA_CONTRATOS</OBJ_NAME>
+     <OBJECT1>TABL</OBJECT1>
+     <OBJ_NAME1>ZINETUMFCTPESQUISA_CONTRATOS</OBJ_NAME1>
+     <OBJECT2>TABL</OBJECT2>
+     <OBJ_NAME2>ZINETUMFCTPESQUISA_CONTRATOS</OBJ_NAME2>
+     <ID>&lt;type&gt; pesquisaContratos http://vo.webservice.contrato.segsocial.pt http://vo.webservice.contrato.segsocial.pt</ID>
+     <IFR_TYPE>type</IFR_TYPE>
+     <IFR_NAME>pesquisaContratos</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>TABL</R3_TYPE>
+     <R3_NAME>ZINETUMFCTPESQUISA_CONTRATOS</R3_NAME>
+     <R3_TEXT>Proxy Structure (generated)</R3_TEXT>
+     <CATEGORY>ifmtypedef</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
