@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SPRX" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <PROXY_HEADER>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZINETUMFCTCX_GFCTEXCEPTION</OBJ_NAME>
+     <OBJECT_M>CLAS</OBJECT_M>
+     <OBJ_NAME_M>ZINETUMFCTCX_GFCTEXCEPTION</OBJ_NAME_M>
+     <HASH_ID>ABD080C9AE79C66F4C1FB7D47313DF87CD9FE057</HASH_ID>
+     <ID>&lt;message&gt; GFCTException http://www.fundoscompensacao.pt/ws/gfct/ http://www.fundoscompensacao.pt/ws/gfct/</ID>
+     <IFR_GLOBAL>X</IFR_GLOBAL>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>GFCTException</IFR_NAME>
+     <IFR_NSPCE>http://www.fundoscompensacao.pt/ws/gfct/</IFR_NSPCE>
+     <IFR_GNSPCE>http://www.fundoscompensacao.pt/ws/gfct/</IFR_GNSPCE>
+     <GEN_VERS>0006</GEN_VERS>
+     <PREFIX>ZINETUMFCT</PREFIX>
+     <CATEGORY>ifmfaultm</CATEGORY>
+     <GEN_APPL>WEBSERVICES</GEN_APPL>
+     <X-ML_NSPCE>http://www.fundoscompensacao.pt/ws/gfct/</X-ML_NSPCE>
+     <X-ML_NAME>bizError</X-ML_NAME>
+    </item>
+   </PROXY_HEADER>
+   <PROXY_DATA>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZINETUMFCTCX_GFCTEXCEPTION</OBJ_NAME>
+     <OBJECT1>ATTR</OBJECT1>
+     <OBJ_NAME1>FAULT</OBJ_NAME1>
+     <OBJECT2>ATTR</OBJECT2>
+     <OBJ_NAME2>FAULT</OBJ_NAME2>
+     <OBJECT_R>TABL</OBJECT_R>
+     <OBJ_NAME_R>ZINETUMFCTWS_SERVICE_FAULT</OBJ_NAME_R>
+     <ID>&lt;part&gt; fault &lt;message&gt; GFCTException http://www.fundoscompensacao.pt/ws/gfct/ http://www.fundoscompensacao.pt/ws/gfct/</ID>
+     <IFR_TYPE>part</IFR_TYPE>
+     <IFR_NAME>fault</IFR_NAME>
+     <IFR_NILLABLE>X</IFR_NILLABLE>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <R3_TYPE>ATTR</R3_TYPE>
+     <R3_NAME>FAULT</R3_NAME>
+     <R3_SEQNUM>000001</R3_SEQNUM>
+    </item>
+    <item>
+     <OBJECT>CLAS</OBJECT>
+     <OBJ_NAME>ZINETUMFCTCX_GFCTEXCEPTION</OBJ_NAME>
+     <OBJECT1>CLAS</OBJECT1>
+     <OBJ_NAME1>ZINETUMFCTCX_GFCTEXCEPTION</OBJ_NAME1>
+     <OBJECT2>CLAS</OBJECT2>
+     <OBJ_NAME2>ZINETUMFCTCX_GFCTEXCEPTION</OBJ_NAME2>
+     <ID>&lt;message&gt; GFCTException http://www.fundoscompensacao.pt/ws/gfct/ http://www.fundoscompensacao.pt/ws/gfct/</ID>
+     <IFR_TYPE>message</IFR_TYPE>
+     <IFR_NAME>GFCTException</IFR_NAME>
+     <IFR_SCALE>-2</IFR_SCALE>
+     <IFR_FAULT>X</IFR_FAULT>
+     <R3_TYPE>CLAS</R3_TYPE>
+     <R3_NAME>ZINETUMFCTCX_GFCTEXCEPTION</R3_NAME>
+     <R3_TEXT>Proxy Class (generated)</R3_TEXT>
+     <CATEGORY>ifmfaultm</CATEGORY>
+    </item>
+   </PROXY_DATA>
+  </asx:values>
+ </asx:abap>
+</abapGit>
